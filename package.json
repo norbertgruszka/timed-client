@@ -1,9 +1,9 @@
 {
   "private": true,
-  "name": "my-nextron-app",
-  "description": "My application description",
-  "version": "1.0.0",
-  "author": "Yoshihide Shiono <shiono.yoshihide@gmail.com>",
+  "name": "timed-client",
+  "description": "A small desktop client for adding entries to timed.",
+  "version": "0.1.0",
+  "author": "Norbert Gruszka <nobgch520@gmail.com>",
   "main": "app/background.js",
   "scripts": {
     "dev": "nextron",
