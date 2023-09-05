@@ -10,7 +10,7 @@ After cloning this repository install project dependencies with `npm` or `yarn` 
 npm install
 ```
 
-or 
+or
 
 ```bash
 yarn
