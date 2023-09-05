@@ -1,33 +1,22 @@
-<p align="center"><img src="https://i.imgur.com/flcMvDC.png"></p>
+# Timed client
 
-## Usage
+A small desktop client for adding entries to timed.
 
-### Create an App
+## Development
 
-```
-# with npx
-$ npx create-nextron-app my-app --example with-material-ui
+After cloning this repository install project dependencies with `npm` or `yarn` package manager.
 
-# with yarn
-$ yarn create nextron-app my-app --example with-material-ui
-
-# with pnpx
-$ pnpx create-nextron-app my-app --example with-material-ui
+```bash
+npm install
 ```
 
-### Install Dependencies
+or
 
-```
-$ cd my-app
-
-# using yarn or npm
-$ yarn (or `npm install`)
-
-# using pnpm
-$ pnpm install --shamefully-hoist
+```bash
+yarn
 ```
 
-### Use it
+Afterwards, you should be able to start the application.
 
 ```
 # development mode
