@@ -22,8 +22,6 @@ function Home() {
   const [open, setOpen] = React.useState(false);
   const handleClose = () => setOpen(false);
   const handleClick = () => setOpen(true);
-  
-
 
   return (
     <React.Fragment>
@@ -61,7 +59,7 @@ function Home() {
             <Button
               variant="contained"
               color="secondary"
-              onClick={() => shell.openExternal('https://google.com')}>
+              onClick={() => shell.openExternal("http://timed.local/")}>
               Sign In
             </Button>
           </a>
