@@ -41,10 +41,7 @@ function Home() {
           </DialogActions>
         </Dialog>
         <Typography variant="h4" gutterBottom>
-          Material-UI
-        </Typography>
-        <Typography variant="subtitle1" gutterBottom>
-          with Nextron
+          Timed Client
         </Typography>
         <img src="/images/logo.png" />
         <Typography gutterBottom>
@@ -55,14 +52,12 @@ function Home() {
         </Button>
         <div>&darr; &darr; &darr; &darr; &darr;</div>
         <div>
-          <a target="_blank">
-            <Button
-              variant="contained"
-              color="secondary"
-              onClick={() => shell.openExternal("http://timed.local/")}>
-              Sign In
-            </Button>
-          </a>
+          <Button
+            variant="contained"
+            color="secondary"
+            onClick={() => shell.openExternal("http://timed.local/")}>
+            Sign In
+          </Button>
         </div>
       </Root>
     </React.Fragment>
