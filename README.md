@@ -16,6 +16,13 @@ or
 yarn
 ```
 
+Create `.env` file under `renderer` directory with following values:
+
+```
+NEXTAUTH_URL=http://localhost:8888
+NEXTAUTH_SECRET=Namk7zp8i5Ln6mAKWcWxgJdXmv6BWe/LyAXktOegl6g= # Generate with: openssl rand -base64 32
+```
+
 Afterwards, you should be able to start the application.
 
 ```
