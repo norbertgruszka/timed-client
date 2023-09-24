@@ -10,6 +10,11 @@ export const authOptions = {
         issuer: 'http://timed.local/auth/realms/timed',
     }),
   ],
+// TODO Use custom sign-in page. Also, try to open it in the browser.
+// https://next-auth.js.org/configuration/options#pages
+//   pages: {
+//     signIn: '/auth/signin',
+//   }
 }
 
 export default NextAuth(authOptions)
