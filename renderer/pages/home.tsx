@@ -4,10 +4,13 @@ import Login from '../components/login-btn'
 
 function Home() {
     return (
+
         <React.Fragment>
             <Head>
-                <title>Home - Nextron (with-typescript-material-ui)</title>
+                <title>Timed Client</title>
             </Head>
+
+            
             <Login/>
         </React.Fragment>
     );
